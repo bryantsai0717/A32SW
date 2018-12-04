@@ -1,0 +1,964 @@
+2018-10-20 19:45:42,119 INFO    : system start
+2018-10-20 19:45:42,164 INFO    : start time:2018-10-20 19:45:42.164537
+2018-10-20 19:45:45,003 INFO    : main ok
+2018-10-20 19:45:45,006 INFO    : end time:2018-10-20 19:45:45.006080
+2018-10-20 19:45:45,008 INFO    : system exit cost:0:00:02.841543
+2018-10-20 19:45:45,010 INFO    : --------------------------------------------------
+2018-10-20 19:49:33,033 INFO    : system start
+2018-10-20 19:49:33,036 INFO    : start time:2018-10-20 19:49:33.036802
+2018-10-20 19:49:34,857 INFO    : main ok
+2018-10-20 19:49:34,872 INFO    : end time:2018-10-20 19:49:34.872103
+2018-10-20 19:49:34,883 INFO    : system exit cost:0:00:01.835301
+2018-10-20 19:49:34,888 INFO    : --------------------------------------------------
+2018-10-20 19:50:28,278 INFO    : system start
+2018-10-20 19:50:28,290 INFO    : start time:2018-10-20 19:50:28.290586
+2018-10-20 19:50:30,410 INFO    : main ok
+2018-10-20 19:50:30,416 INFO    : end time:2018-10-20 19:50:30.416356
+2018-10-20 19:50:30,420 INFO    : system exit cost:0:00:02.125770
+2018-10-20 19:50:30,427 INFO    : --------------------------------------------------
+2018-10-20 19:50:52,367 INFO    : system start
+2018-10-20 19:50:52,371 INFO    : start time:2018-10-20 19:50:52.371523
+2018-10-20 19:50:54,893 INFO    : main ok
+2018-10-20 19:50:54,899 INFO    : end time:2018-10-20 19:50:54.899358
+2018-10-20 19:50:54,901 INFO    : system exit cost:0:00:02.527835
+2018-10-20 19:50:54,903 INFO    : --------------------------------------------------
+2018-10-20 19:53:27,786 INFO    : system start
+2018-10-20 19:53:27,788 INFO    : start time:2018-10-20 19:53:27.788644
+2018-10-20 19:53:30,122 ERROR   : type object 'datetime.datetime' has no attribute 'timedelta'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 13, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 43, in Main
+    print(round_minutes(work_on, 'up', 30))
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 52, in round_minutes
+    return dt + datetime.timedelta(minutes=((dt.minute // resolution + (1 if direction == 'up' else 0)) * resolution) - dt.minute)
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+2018-10-20 19:53:30,130 INFO    : main fail
+2018-10-20 19:53:30,132 INFO    : end time:2018-10-20 19:53:30.132031
+2018-10-20 19:53:30,134 INFO    : system exit cost:0:00:02.343387
+2018-10-20 19:53:30,136 INFO    : --------------------------------------------------
+2018-10-20 19:54:47,970 INFO    : system start
+2018-10-20 19:57:17,045 INFO    : system start
+2018-10-20 19:57:17,050 INFO    : start time:2018-10-20 19:57:17.050581
+2018-10-20 19:57:18,778 INFO    : main ok
+2018-10-20 19:57:18,785 INFO    : end time:2018-10-20 19:57:18.785058
+2018-10-20 19:57:18,792 INFO    : system exit cost:0:00:01.734477
+2018-10-20 19:57:18,798 INFO    : --------------------------------------------------
+2018-10-20 19:58:11,238 INFO    : system start
+2018-10-20 19:58:11,252 INFO    : start time:2018-10-20 19:58:11.252275
+2018-10-20 19:58:13,414 INFO    : main ok
+2018-10-20 19:58:13,420 INFO    : end time:2018-10-20 19:58:13.420184
+2018-10-20 19:58:13,427 INFO    : system exit cost:0:00:02.167909
+2018-10-20 19:58:13,433 INFO    : --------------------------------------------------
+2018-10-20 20:01:40,225 INFO    : system start
+2018-10-20 20:01:40,227 INFO    : start time:2018-10-20 20:01:40.227995
+2018-10-20 20:01:42,125 ERROR   : 'Timestamp' object has no attribute 'sec'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 44, in Main
+    print(work_on.sec)
+AttributeError: 'Timestamp' object has no attribute 'sec'
+2018-10-20 20:01:42,143 INFO    : main fail
+2018-10-20 20:01:42,148 INFO    : end time:2018-10-20 20:01:42.147085
+2018-10-20 20:01:42,149 INFO    : system exit cost:0:00:01.919090
+2018-10-20 20:01:42,151 INFO    : --------------------------------------------------
+2018-10-20 20:02:06,560 INFO    : system start
+2018-10-20 20:02:06,568 INFO    : start time:2018-10-20 20:02:06.568717
+2018-10-20 20:02:08,287 INFO    : main ok
+2018-10-20 20:02:08,290 INFO    : end time:2018-10-20 20:02:08.290254
+2018-10-20 20:02:08,293 INFO    : system exit cost:0:00:01.721537
+2018-10-20 20:02:08,296 INFO    : --------------------------------------------------
+2018-10-20 20:03:12,323 INFO    : system start
+2018-10-20 20:03:12,338 INFO    : start time:2018-10-20 20:03:12.337574
+2018-10-20 20:03:14,946 ERROR   : attribute 'second' of 'datetime.datetime' objects is not writable
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 44, in Main
+    work_on.second = 0
+AttributeError: attribute 'second' of 'datetime.datetime' objects is not writable
+2018-10-20 20:03:14,951 INFO    : main fail
+2018-10-20 20:03:14,952 INFO    : end time:2018-10-20 20:03:14.952685
+2018-10-20 20:03:14,954 INFO    : system exit cost:0:00:02.615111
+2018-10-20 20:03:14,959 INFO    : --------------------------------------------------
+2018-10-20 20:06:42,126 INFO    : system start
+2018-10-20 20:06:42,129 INFO    : start time:2018-10-20 20:06:42.129669
+2018-10-20 20:06:43,841 ERROR   : Cannot add integral value to Timestamp without freq.
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 44, in Main
+    print(round_minutes(work_on, 'up', 30))
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 53, in round_minutes
+    return dt + datetime.timedelta(minutes=((dt.minute // resolution + (1 if direction == 'up' else 0)) * resolution) - dt.minute) - dt.second
+  File "pandas\_libs\tslibs\timestamps.pyx", line 298, in pandas._libs.tslibs.timestamps._Timestamp.__sub__
+  File "pandas\_libs\tslibs\timestamps.pyx", line 269, in pandas._libs.tslibs.timestamps._Timestamp.__add__
+ValueError: Cannot add integral value to Timestamp without freq.
+2018-10-20 20:06:43,846 INFO    : main fail
+2018-10-20 20:06:43,849 INFO    : end time:2018-10-20 20:06:43.849933
+2018-10-20 20:06:43,851 INFO    : system exit cost:0:00:01.720264
+2018-10-20 20:06:43,853 INFO    : --------------------------------------------------
+2018-10-20 20:07:25,591 INFO    : system start
+2018-10-20 20:07:25,596 INFO    : start time:2018-10-20 20:07:25.596071
+2018-10-20 20:07:27,303 ERROR   : 'second' is an invalid keyword argument for __new__()
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 44, in Main
+    print(round_minutes(work_on, 'up', 30))
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 53, in round_minutes
+    return dt + datetime.timedelta(minutes=((dt.minute // resolution + (1 if direction == 'up' else 0)) * resolution) - dt.minute) - datetime.timedelta(second=dt.second)
+TypeError: 'second' is an invalid keyword argument for __new__()
+2018-10-20 20:07:27,324 INFO    : main fail
+2018-10-20 20:07:27,337 INFO    : end time:2018-10-20 20:07:27.337140
+2018-10-20 20:07:27,348 INFO    : system exit cost:0:00:01.741069
+2018-10-20 20:07:27,356 INFO    : --------------------------------------------------
+2018-10-20 20:07:48,687 INFO    : system start
+2018-10-20 20:07:48,695 INFO    : start time:2018-10-20 20:07:48.695199
+2018-10-20 20:07:50,353 INFO    : main ok
+2018-10-20 20:07:50,354 INFO    : end time:2018-10-20 20:07:50.354970
+2018-10-20 20:07:50,356 INFO    : system exit cost:0:00:01.659771
+2018-10-20 20:07:50,358 INFO    : --------------------------------------------------
+2018-10-20 20:10:04,657 INFO    : system start
+2018-10-20 20:10:04,659 INFO    : start time:2018-10-20 20:10:04.659855
+2018-10-20 20:10:06,402 INFO    : main ok
+2018-10-20 20:10:06,405 INFO    : end time:2018-10-20 20:10:06.405535
+2018-10-20 20:10:06,409 INFO    : system exit cost:0:00:01.745680
+2018-10-20 20:10:06,412 INFO    : --------------------------------------------------
+2018-10-20 20:11:05,716 INFO    : system start
+2018-10-20 20:11:05,733 INFO    : start time:2018-10-20 20:11:05.733300
+2018-10-20 20:11:07,407 INFO    : main ok
+2018-10-20 20:11:07,412 INFO    : end time:2018-10-20 20:11:07.412597
+2018-10-20 20:11:07,415 INFO    : system exit cost:0:00:01.679297
+2018-10-20 20:11:07,418 INFO    : --------------------------------------------------
+2018-10-20 20:11:45,175 INFO    : system start
+2018-10-20 20:11:45,183 INFO    : start time:2018-10-20 20:11:45.183333
+2018-10-20 20:11:46,911 ERROR   : 'Series' object has no attribute 'minute'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 46, in Main
+    print(round_minutes(work_on, 'up', 30))
+  File "F:\A32\coding\temp_coding\rounding_up\testrounding.py", line 59, in round_minutes
+    return dt + datetime.timedelta(minutes=((dt.minute // resolution + (1 if direction == 'up' else 0)) * resolution) - dt.minute) - datetime.timedelta(seconds=dt.second)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\generic.py", line 4376, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'minute'
+2018-10-20 20:11:46,943 INFO    : main fail
+2018-10-20 20:11:46,950 INFO    : end time:2018-10-20 20:11:46.950836
+2018-10-20 20:11:46,960 INFO    : system exit cost:0:00:01.767503
+2018-10-20 20:11:46,966 INFO    : --------------------------------------------------
+2018-10-20 20:22:13,136 INFO    : system start
+2018-10-20 20:22:13,151 INFO    : start time:2018-10-20 20:22:13.151439
+2018-10-20 20:22:16,792 INFO    : main ok
+2018-10-20 20:22:16,804 INFO    : end time:2018-10-20 20:22:16.804459
+2018-10-20 20:22:16,807 INFO    : system exit cost:0:00:03.653020
+2018-10-20 20:22:16,810 INFO    : --------------------------------------------------
+2018-10-20 20:22:58,844 INFO    : system start
+2018-10-20 20:22:58,857 INFO    : start time:2018-10-20 20:22:58.857978
+2018-10-20 20:23:00,731 INFO    : main ok
+2018-10-20 20:23:00,736 INFO    : end time:2018-10-20 20:23:00.736004
+2018-10-20 20:23:00,745 INFO    : system exit cost:0:00:01.878026
+2018-10-20 20:23:00,749 INFO    : --------------------------------------------------
+2018-10-20 20:24:15,771 INFO    : system start
+2018-10-20 20:24:15,776 INFO    : start time:2018-10-20 20:24:15.776377
+2018-10-20 20:24:18,689 INFO    : main ok
+2018-10-20 20:24:18,697 INFO    : end time:2018-10-20 20:24:18.697818
+2018-10-20 20:24:18,710 INFO    : system exit cost:0:00:02.921441
+2018-10-20 20:24:18,715 INFO    : --------------------------------------------------
+2018-10-21 06:47:14,962 INFO    : system start
+2018-10-21 06:47:14,977 INFO    : start time:2018-10-21 06:47:14.977781
+2018-10-21 06:47:15,009 ERROR   : [Errno 2] No such file or directory: 'I:\\ARM-HR-Dept\\HR-Data\\P2\\LineRecord\\LineRecord_20181015_N2.xls'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 13, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 27, in Main
+    a = pd.DataFrame(pd.read_excel('I:\ARM-HR-Dept\HR-Data\P2\LineRecord\LineRecord_20181015_N2.xls','工作表1'))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\util\_decorators.py", line 178, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\util\_decorators.py", line 178, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\io\excel.py", line 307, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\io\excel.py", line 394, in __init__
+    self.book = xlrd.open_workbook(self._io)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\xlrd\__init__.py", line 116, in open_workbook
+    with open(filename, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'I:\\ARM-HR-Dept\\HR-Data\\P2\\LineRecord\\LineRecord_20181015_N2.xls'
+2018-10-21 06:47:15,024 INFO    : main fail
+2018-10-21 06:47:15,040 INFO    : end time:2018-10-21 06:47:15.040266
+2018-10-21 06:47:15,040 INFO    : system exit cost:0:00:00.062485
+2018-10-21 06:47:15,040 INFO    : --------------------------------------------------
+2018-10-21 06:47:32,236 INFO    : system start
+2018-10-21 06:47:32,252 INFO    : start time:2018-10-21 06:47:32.252197
+2018-10-21 06:47:32,267 ERROR   : [Errno 2] No such file or directory: 'I:\\ARM-HR-Dept\\HR-Data\\P2\\LineRecord\\LineRecord_20181015_N2.xls'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 13, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 27, in Main
+    a = pd.DataFrame(pd.read_excel('I:\ARM-HR-Dept\HR-Data\P2\LineRecord\LineRecord_20181015_N2.xls','工作表1'))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\util\_decorators.py", line 178, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\util\_decorators.py", line 178, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\io\excel.py", line 307, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\io\excel.py", line 394, in __init__
+    self.book = xlrd.open_workbook(self._io)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\xlrd\__init__.py", line 116, in open_workbook
+    with open(filename, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'I:\\ARM-HR-Dept\\HR-Data\\P2\\LineRecord\\LineRecord_20181015_N2.xls'
+2018-10-21 06:47:32,299 INFO    : main fail
+2018-10-21 06:47:32,314 INFO    : end time:2018-10-21 06:47:32.314695
+2018-10-21 06:47:32,330 INFO    : system exit cost:0:00:00.062498
+2018-10-21 06:47:32,330 INFO    : --------------------------------------------------
+2018-10-21 06:47:44,175 INFO    : system start
+2018-10-21 06:47:44,175 INFO    : start time:2018-10-21 06:47:44.175342
+2018-10-21 06:47:44,206 ERROR   : [Errno 2] No such file or directory: 'I:\\ARM-HR-Dept\\HR-Data\\P2\\LineRecord\\LineRecord_20181015_N2.xls'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 13, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 27, in Main
+    a = pd.DataFrame(pd.read_excel('I:\ARM-HR-Dept\HR-Data\P2\LineRecord\LineRecord_20181015_N2.xls','工作表1'))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\util\_decorators.py", line 178, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\util\_decorators.py", line 178, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\io\excel.py", line 307, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\io\excel.py", line 394, in __init__
+    self.book = xlrd.open_workbook(self._io)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\xlrd\__init__.py", line 116, in open_workbook
+    with open(filename, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'I:\\ARM-HR-Dept\\HR-Data\\P2\\LineRecord\\LineRecord_20181015_N2.xls'
+2018-10-21 06:47:44,222 INFO    : main fail
+2018-10-21 06:47:44,222 INFO    : end time:2018-10-21 06:47:44.222222
+2018-10-21 06:47:44,237 INFO    : system exit cost:0:00:00.046880
+2018-10-21 06:47:44,237 INFO    : --------------------------------------------------
+2018-10-21 06:48:26,159 INFO    : system start
+2018-10-21 06:48:26,222 INFO    : start time:2018-10-21 06:48:26.222166
+2018-10-21 06:48:28,097 ERROR   : Out of bounds nanosecond timestamp: 1-01-01 00:00:00
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 13, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 37, in Main
+    print (ceil_dt(pd.to_datetime(main_a.loc[1]['上班時間'], format='%Y/%m/%d %H:%M:%S'), pd.Timedelta(minutes=-30)))
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 51, in ceil_dt
+    return datetime.min + math.ceil((dt - datetime.min) / delta) * delta
+  File "pandas\_libs\tslibs\timestamps.pyx", line 316, in pandas._libs.tslibs.timestamps._Timestamp.__sub__
+  File "pandas\_libs\tslibs\timestamps.pyx", line 644, in pandas._libs.tslibs.timestamps.Timestamp.__new__
+  File "pandas\_libs\tslibs\conversion.pyx", line 300, in pandas._libs.tslibs.conversion.convert_to_tsobject
+  File "pandas\_libs\tslibs\conversion.pyx", line 380, in pandas._libs.tslibs.conversion.convert_datetime_to_tsobject
+  File "pandas\_libs\tslibs\np_datetime.pyx", line 121, in pandas._libs.tslibs.np_datetime.check_dts_bounds
+pandas._libs.tslibs.np_datetime.OutOfBoundsDatetime: Out of bounds nanosecond timestamp: 1-01-01 00:00:00
+2018-10-21 06:48:28,144 INFO    : main fail
+2018-10-21 06:48:28,156 INFO    : end time:2018-10-21 06:48:28.156256
+2018-10-21 06:48:28,167 INFO    : system exit cost:0:00:01.934090
+2018-10-21 06:48:28,178 INFO    : --------------------------------------------------
+2018-10-21 06:53:04,231 INFO    : system start
+2018-10-21 06:53:04,262 INFO    : start time:2018-10-21 06:53:04.262639
+2018-10-21 06:53:07,200 INFO    : main ok
+2018-10-21 06:53:07,200 INFO    : end time:2018-10-21 06:53:07.200454
+2018-10-21 06:53:07,216 INFO    : system exit cost:0:00:02.937815
+2018-10-21 06:53:07,216 INFO    : --------------------------------------------------
+2018-10-21 06:53:47,935 INFO    : system start
+2018-10-21 06:53:47,945 INFO    : start time:2018-10-21 06:53:47.945695
+2018-10-21 06:53:50,777 INFO    : main ok
+2018-10-21 06:53:50,777 INFO    : end time:2018-10-21 06:53:50.777029
+2018-10-21 06:53:50,792 INFO    : system exit cost:0:00:02.831334
+2018-10-21 06:53:50,792 INFO    : --------------------------------------------------
+2018-10-21 06:54:23,868 INFO    : system start
+2018-10-21 06:54:23,883 INFO    : start time:2018-10-21 06:54:23.883830
+2018-10-21 06:54:25,665 INFO    : main ok
+2018-10-21 06:54:25,680 INFO    : end time:2018-10-21 06:54:25.680898
+2018-10-21 06:54:25,680 INFO    : system exit cost:0:00:01.797068
+2018-10-21 06:54:25,680 INFO    : --------------------------------------------------
+2018-10-21 06:54:40,342 INFO    : system start
+2018-10-21 06:54:40,357 INFO    : start time:2018-10-21 06:54:40.357812
+2018-10-21 06:54:42,123 INFO    : main ok
+2018-10-21 06:54:42,123 INFO    : end time:2018-10-21 06:54:42.123618
+2018-10-21 06:54:42,123 INFO    : system exit cost:0:00:01.765806
+2018-10-21 06:54:42,139 INFO    : --------------------------------------------------
+2018-10-21 06:57:14,387 INFO    : system start
+2018-10-21 06:57:14,403 INFO    : start time:2018-10-21 06:57:14.403360
+2018-10-21 06:57:17,356 ERROR   : unsupported operand type(s) for /: 'Timestamp' and 'Timedelta'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 13, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 39, in Main
+    print (ceil_dt(pd.to_datetime(main_a.loc[1]['上班時間'], format='%Y/%m/%d %H:%M:%S'), pd.Timedelta(minutes=-30)))
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 53, in ceil_dt
+    return math.ceil(dt.min/delta)*delta
+TypeError: unsupported operand type(s) for /: 'Timestamp' and 'Timedelta'
+2018-10-21 06:57:17,356 INFO    : main fail
+2018-10-21 06:57:17,372 INFO    : end time:2018-10-21 06:57:17.372459
+2018-10-21 06:57:17,388 INFO    : system exit cost:0:00:02.969099
+2018-10-21 06:57:17,403 INFO    : --------------------------------------------------
+2018-10-21 06:58:26,098 INFO    : system start
+2018-10-21 06:58:26,114 INFO    : start time:2018-10-21 06:58:26.114204
+2018-10-21 06:58:28,598 ERROR   : unsupported operand type(s) for /: 'Timestamp' and 'int'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 13, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 39, in Main
+    print (ceil_dt(pd.to_datetime(main_a.loc[1]['上班時間'], format='%Y/%m/%d %H:%M:%S'), -30))
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 53, in ceil_dt
+    return math.ceil(dt.min/delta)*delta
+TypeError: unsupported operand type(s) for /: 'Timestamp' and 'int'
+2018-10-21 06:58:28,630 INFO    : main fail
+2018-10-21 06:58:28,645 INFO    : end time:2018-10-21 06:58:28.645717
+2018-10-21 06:58:28,661 INFO    : system exit cost:0:00:02.531513
+2018-10-21 06:58:28,676 INFO    : --------------------------------------------------
+2018-10-21 06:59:01,738 INFO    : system start
+2018-10-21 06:59:01,800 INFO    : start time:2018-10-21 06:59:01.800620
+2018-10-21 06:59:03,662 ERROR   : unsupported operand type(s) for /: 'Timestamp' and 'int'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 13, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 39, in Main
+    print (ceil_dt(pd.to_datetime(main_a.loc[1]['上班時間'], format='%Y/%m/%d %H:%M:%S'), -30))
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 53, in ceil_dt
+    return math.ceil(dt.min/delta)*delta
+TypeError: unsupported operand type(s) for /: 'Timestamp' and 'int'
+2018-10-21 06:59:03,691 INFO    : main fail
+2018-10-21 06:59:03,709 INFO    : end time:2018-10-21 06:59:03.709600
+2018-10-21 06:59:03,718 INFO    : system exit cost:0:00:01.908980
+2018-10-21 06:59:03,730 INFO    : --------------------------------------------------
+2018-10-21 06:59:26,612 INFO    : system start
+2018-10-21 06:59:26,628 INFO    : start time:2018-10-21 06:59:26.628431
+2018-10-21 06:59:28,425 ERROR   : 'Timestamp' object has no attribute 'minutes'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 13, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 39, in Main
+    print (ceil_dt(pd.to_datetime(main_a.loc[1]['上班時間'], format='%Y/%m/%d %H:%M:%S'), -30))
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 52, in ceil_dt
+    print(dt.minutes)
+AttributeError: 'Timestamp' object has no attribute 'minutes'
+2018-10-21 06:59:28,456 INFO    : main fail
+2018-10-21 06:59:28,456 INFO    : end time:2018-10-21 06:59:28.456755
+2018-10-21 06:59:28,472 INFO    : system exit cost:0:00:01.828324
+2018-10-21 06:59:28,472 INFO    : --------------------------------------------------
+2018-10-21 07:00:30,247 INFO    : system start
+2018-10-21 07:00:30,309 INFO    : start time:2018-10-21 07:00:30.309716
+2018-10-21 07:00:32,013 INFO    : main ok
+2018-10-21 07:00:32,013 INFO    : end time:2018-10-21 07:00:32.013013
+2018-10-21 07:00:32,013 INFO    : system exit cost:0:00:01.703297
+2018-10-21 07:00:32,028 INFO    : --------------------------------------------------
+2018-10-21 07:14:50,765 INFO    : system start
+2018-10-21 07:14:50,812 INFO    : start time:2018-10-21 07:14:50.812789
+2018-10-21 07:14:52,547 ERROR   : type object 'datetime.datetime' has no attribute 'timedelta'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 13, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 39, in Main
+    print (ceil_dt(pd.to_datetime(main_a.loc[1]['上班時間'], format='%Y/%m/%d %H:%M:%S'), -30))
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 55, in ceil_dt
+    return (dt + datetime.timedelta(minutes=(math.ceil(dt.minute/delta)*delta) - dt.minute)) if delta < 0 else (dt + datetime.timedelta(minutes=(math.floor(dt.minute/delta)*delta) - dt.minute))
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+2018-10-21 07:14:52,562 INFO    : main fail
+2018-10-21 07:14:52,562 INFO    : end time:2018-10-21 07:14:52.562977
+2018-10-21 07:14:52,578 INFO    : system exit cost:0:00:01.750188
+2018-10-21 07:14:52,594 INFO    : --------------------------------------------------
+2018-10-21 07:15:43,400 INFO    : system start
+2018-10-21 07:15:43,400 INFO    : start time:2018-10-21 07:15:43.400880
+2018-10-21 07:15:45,182 INFO    : main ok
+2018-10-21 07:15:45,182 INFO    : end time:2018-10-21 07:15:45.182289
+2018-10-21 07:15:45,182 INFO    : system exit cost:0:00:01.781409
+2018-10-21 07:15:45,182 INFO    : --------------------------------------------------
+2018-10-21 07:17:49,712 INFO    : system start
+2018-10-21 07:17:49,727 INFO    : start time:2018-10-21 07:17:49.727875
+2018-10-21 07:17:51,431 INFO    : main ok
+2018-10-21 07:17:51,431 INFO    : end time:2018-10-21 07:17:51.431108
+2018-10-21 07:17:51,431 INFO    : system exit cost:0:00:01.703233
+2018-10-21 07:17:51,431 INFO    : --------------------------------------------------
+2018-10-21 07:19:07,309 INFO    : system start
+2018-10-21 07:19:07,325 INFO    : start time:2018-10-21 07:19:07.325335
+2018-10-21 07:19:08,934 INFO    : main ok
+2018-10-21 07:19:08,934 INFO    : end time:2018-10-21 07:19:08.934850
+2018-10-21 07:19:08,934 INFO    : system exit cost:0:00:01.609515
+2018-10-21 07:19:08,934 INFO    : --------------------------------------------------
+2018-10-21 07:19:44,563 INFO    : system start
+2018-10-21 07:19:44,579 INFO    : start time:2018-10-21 07:19:44.579297
+2018-10-21 07:19:47,001 INFO    : main ok
+2018-10-21 07:19:47,001 INFO    : end time:2018-10-21 07:19:47.001449
+2018-10-21 07:19:47,001 INFO    : system exit cost:0:00:02.422152
+2018-10-21 07:19:47,001 INFO    : --------------------------------------------------
+2018-10-21 07:21:49,197 INFO    : system start
+2018-10-21 07:21:49,212 INFO    : start time:2018-10-21 07:21:49.212753
+2018-10-21 07:21:50,947 ERROR   : can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 40, in Main
+    print (ceil_dt(pd.to_datetime(main_a.loc[1]['上班時間'], format='%Y/%m/%d %H:%M:%S'), 30))
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 56, in ceil_dt
+    print('ceil:' + math.ceil(dt.minute/delta)*delta)
+TypeError: can only concatenate str (not "int") to str
+2018-10-21 07:21:50,962 INFO    : main fail
+2018-10-21 07:21:50,962 INFO    : end time:2018-10-21 07:21:50.962919
+2018-10-21 07:21:50,962 INFO    : system exit cost:0:00:01.750166
+2018-10-21 07:21:50,978 INFO    : --------------------------------------------------
+2018-10-21 07:22:35,264 INFO    : system start
+2018-10-21 07:22:35,264 INFO    : start time:2018-10-21 07:22:35.264552
+2018-10-21 07:22:37,170 INFO    : main ok
+2018-10-21 07:22:37,170 INFO    : end time:2018-10-21 07:22:37.170995
+2018-10-21 07:22:37,170 INFO    : system exit cost:0:00:01.906443
+2018-10-21 07:22:37,186 INFO    : --------------------------------------------------
+2018-10-21 07:25:44,536 INFO    : system start
+2018-10-21 07:25:44,552 INFO    : start time:2018-10-21 07:25:44.552143
+2018-10-21 07:25:46,271 INFO    : main ok
+2018-10-21 07:25:46,271 INFO    : end time:2018-10-21 07:25:46.271076
+2018-10-21 07:25:46,286 INFO    : system exit cost:0:00:01.718933
+2018-10-21 07:25:46,286 INFO    : --------------------------------------------------
+2018-10-21 07:26:10,351 INFO    : system start
+2018-10-21 07:26:10,414 INFO    : start time:2018-10-21 07:26:10.414372
+2018-10-21 07:26:13,305 INFO    : main ok
+2018-10-21 07:26:13,305 INFO    : end time:2018-10-21 07:26:13.305224
+2018-10-21 07:26:13,305 INFO    : system exit cost:0:00:02.890852
+2018-10-21 07:26:13,320 INFO    : --------------------------------------------------
+2018-10-21 07:31:58,488 INFO    : system start
+2018-10-21 07:31:58,535 INFO    : start time:2018-10-21 07:31:58.535191
+2018-10-21 07:32:00,285 ERROR   : 'Series' object has no attribute 'minute'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 34, in Main
+    work_on_time = ceil_dt(pd.to_datetime(main_a['上班時間'], format='%Y/%m/%d %H:%M:%S'), 30)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 48, in ceil_dt
+    print(dt.minute)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\generic.py", line 4376, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'minute'
+2018-10-21 07:32:00,316 INFO    : main fail
+2018-10-21 07:32:00,316 INFO    : end time:2018-10-21 07:32:00.316605
+2018-10-21 07:32:00,332 INFO    : system exit cost:0:00:01.781414
+2018-10-21 07:32:00,332 INFO    : --------------------------------------------------
+2018-10-21 07:38:40,161 INFO    : system start
+2018-10-21 07:38:40,176 INFO    : start time:2018-10-21 07:38:40.176682
+2018-10-21 07:38:42,051 ERROR   : ('上班時間', 'occurred at index 工號')
+Traceback (most recent call last):
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+TypeError: an integer is required
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 34, in Main
+    work_on_time = main_a.apply(lambda x: ceil_dt(pd.to_datetime(x['上班時間'], format='%Y/%m/%d %H:%M:%S'), 30))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\frame.py", line 6014, in apply
+    return op.get_result()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 318, in get_result
+    return super(FrameRowApply, self).get_result()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 142, in get_result
+    return self.apply_standard()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 248, in apply_standard
+    self.apply_series_generator()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 277, in apply_series_generator
+    results[i] = self.f(v)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 34, in <lambda>
+    work_on_time = main_a.apply(lambda x: ceil_dt(pd.to_datetime(x['上班時間'], format='%Y/%m/%d %H:%M:%S'), 30))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\series.py", line 767, in __getitem__
+    result = self.index.get_value(self, key)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 3118, in get_value
+    tz=getattr(series.dtype, 'tz', None))
+  File "pandas\_libs\index.pyx", line 106, in pandas._libs.index.IndexEngine.get_value
+  File "pandas\_libs\index.pyx", line 114, in pandas._libs.index.IndexEngine.get_value
+  File "pandas\_libs\index.pyx", line 164, in pandas._libs.index.IndexEngine.get_loc
+KeyError: ('上班時間', 'occurred at index 工號')
+2018-10-21 07:38:42,114 INFO    : main fail
+2018-10-21 07:38:42,114 INFO    : end time:2018-10-21 07:38:42.114390
+2018-10-21 07:38:42,130 INFO    : system exit cost:0:00:01.937708
+2018-10-21 07:38:42,145 INFO    : --------------------------------------------------
+2018-10-21 07:39:18,773 INFO    : system start
+2018-10-21 07:39:18,773 INFO    : start time:2018-10-21 07:39:18.773159
+2018-10-21 07:39:20,429 ERROR   : ('上班時間', 'occurred at index 工號')
+Traceback (most recent call last):
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+TypeError: an integer is required
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 34, in Main
+    work_on_time = main_a.apply(lambda x: ceil_dt(pd.to_datetime(x['上班時間'], format='%Y/%m/%d %H:%M:%S'), 30))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\frame.py", line 6014, in apply
+    return op.get_result()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 318, in get_result
+    return super(FrameRowApply, self).get_result()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 142, in get_result
+    return self.apply_standard()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 248, in apply_standard
+    self.apply_series_generator()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 277, in apply_series_generator
+    results[i] = self.f(v)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 34, in <lambda>
+    work_on_time = main_a.apply(lambda x: ceil_dt(pd.to_datetime(x['上班時間'], format='%Y/%m/%d %H:%M:%S'), 30))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\series.py", line 767, in __getitem__
+    result = self.index.get_value(self, key)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 3118, in get_value
+    tz=getattr(series.dtype, 'tz', None))
+  File "pandas\_libs\index.pyx", line 106, in pandas._libs.index.IndexEngine.get_value
+  File "pandas\_libs\index.pyx", line 114, in pandas._libs.index.IndexEngine.get_value
+  File "pandas\_libs\index.pyx", line 164, in pandas._libs.index.IndexEngine.get_loc
+KeyError: ('上班時間', 'occurred at index 工號')
+2018-10-21 07:39:20,550 INFO    : main fail
+2018-10-21 07:39:20,566 INFO    : end time:2018-10-21 07:39:20.566877
+2018-10-21 07:39:20,576 INFO    : system exit cost:0:00:01.793718
+2018-10-21 07:39:20,585 INFO    : --------------------------------------------------
+2018-10-21 07:45:01,561 INFO    : system start
+2018-10-21 07:45:01,608 INFO    : start time:2018-10-21 07:45:01.608546
+2018-10-21 07:45:03,499 ERROR   : ceil_dt() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 36, in Main
+    work_on_time = work_on.apply(lambda x: ceil_dt(x, 'up', 30))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\series.py", line 3194, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/src\inference.pyx", line 1472, in pandas._libs.lib.map_infer
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 36, in <lambda>
+    work_on_time = work_on.apply(lambda x: ceil_dt(x, 'up', 30))
+TypeError: ceil_dt() takes 2 positional arguments but 3 were given
+2018-10-21 07:45:03,561 INFO    : main fail
+2018-10-21 07:45:03,577 INFO    : end time:2018-10-21 07:45:03.577434
+2018-10-21 07:45:03,577 INFO    : system exit cost:0:00:01.968888
+2018-10-21 07:45:03,577 INFO    : --------------------------------------------------
+2018-10-21 07:45:23,456 INFO    : system start
+2018-10-21 07:45:23,456 INFO    : start time:2018-10-21 07:45:23.456415
+2018-10-21 07:45:42,856 INFO    : system start
+2018-10-21 07:45:42,872 INFO    : start time:2018-10-21 07:45:42.872000
+2018-10-21 07:45:44,717 ERROR   : list indices must be integers or slices, not tuple
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 42, in Main
+    compare_table = compare_table[main_a['上班時間'], work_on_time, main_a['下班時間'], work_off_time]
+TypeError: list indices must be integers or slices, not tuple
+2018-10-21 07:45:44,733 INFO    : main fail
+2018-10-21 07:45:44,733 INFO    : end time:2018-10-21 07:45:44.733560
+2018-10-21 07:45:44,733 INFO    : system exit cost:0:00:01.861560
+2018-10-21 07:45:44,733 INFO    : --------------------------------------------------
+2018-10-21 07:50:40,508 INFO    : system start
+2018-10-21 07:50:40,536 INFO    : start time:2018-10-21 07:50:40.536025
+2018-10-21 07:50:42,792 ERROR   : 'builtin_function_or_method' object is not subscriptable
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 42, in Main
+    compare_table = np.array[main_a['上班時間'], work_on_time, main_a['下班時間'], work_off_time]
+TypeError: 'builtin_function_or_method' object is not subscriptable
+2018-10-21 07:50:42,812 INFO    : main fail
+2018-10-21 07:50:42,824 INFO    : end time:2018-10-21 07:50:42.824579
+2018-10-21 07:50:42,828 INFO    : system exit cost:0:00:02.288554
+2018-10-21 07:50:42,828 INFO    : --------------------------------------------------
+2018-10-21 07:57:20,006 INFO    : system start
+2018-10-21 07:57:20,009 INFO    : start time:2018-10-21 07:57:20.009088
+2018-10-21 07:57:22,161 ERROR   : name 'res' is not defined
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 39, in Main
+    for i,j,k,l in zip(res['上班時間'], work_on_time, res['下班時間'], work_off_time):print(i,'|',j,'|',k,'|',l)
+NameError: name 'res' is not defined
+2018-10-21 07:57:22,177 INFO    : main fail
+2018-10-21 07:57:22,177 INFO    : end time:2018-10-21 07:57:22.177374
+2018-10-21 07:57:22,177 INFO    : system exit cost:0:00:02.168286
+2018-10-21 07:57:22,177 INFO    : --------------------------------------------------
+2018-10-21 07:57:37,644 INFO    : system start
+2018-10-21 07:57:37,644 INFO    : start time:2018-10-21 07:57:37.644697
+2018-10-21 07:58:36,110 INFO    : main ok
+2018-10-21 07:58:36,116 INFO    : end time:2018-10-21 07:58:36.116967
+2018-10-21 07:58:36,124 INFO    : system exit cost:0:00:58.472270
+2018-10-21 07:58:36,142 INFO    : --------------------------------------------------
+2018-10-21 08:01:19,667 INFO    : system start
+2018-10-21 08:01:19,667 INFO    : start time:2018-10-21 08:01:19.667473
+2018-10-21 08:03:04,104 INFO    : main ok
+2018-10-21 08:03:04,111 INFO    : end time:2018-10-21 08:03:04.111008
+2018-10-21 08:03:04,120 INFO    : system exit cost:0:01:44.443535
+2018-10-21 08:03:04,127 INFO    : --------------------------------------------------
+2018-10-21 08:12:08,734 INFO    : system start
+2018-10-21 08:12:08,749 INFO    : start time:2018-10-21 08:12:08.749680
+2018-10-21 08:12:11,343 INFO    : main ok
+2018-10-21 08:12:11,390 INFO    : end time:2018-10-21 08:12:11.390592
+2018-10-21 08:12:11,406 INFO    : system exit cost:0:00:02.640912
+2018-10-21 08:12:11,424 INFO    : --------------------------------------------------
+2018-10-21 08:13:38,692 INFO    : system start
+2018-10-21 08:13:38,770 INFO    : start time:2018-10-21 08:13:38.770493
+2018-10-21 08:13:40,551 ERROR   : __init__() got an unexpected keyword argument 'axis'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 39, in Main
+    compare_table = pd.DataFrame([main_a['上班時間'].dropna(), work_on_time, main_a['下班時間'].dropna(), work_off_time], axis=1)
+TypeError: __init__() got an unexpected keyword argument 'axis'
+2018-10-21 08:13:40,567 INFO    : main fail
+2018-10-21 08:13:40,583 INFO    : end time:2018-10-21 08:13:40.583234
+2018-10-21 08:13:40,583 INFO    : system exit cost:0:00:01.812741
+2018-10-21 08:13:40,598 INFO    : --------------------------------------------------
+2018-10-21 08:14:12,996 INFO    : system start
+2018-10-21 08:14:12,996 INFO    : start time:2018-10-21 08:14:12.996464
+2018-10-21 08:14:14,668 ERROR   : <lambda>() got an unexpected keyword argument 'axis'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 36, in Main
+    work_on_time = work_on.apply(lambda x: ceil_dt(x, 30), axis=1)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\series.py", line 3194, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/src\inference.pyx", line 1472, in pandas._libs.lib.map_infer
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\series.py", line 3181, in <lambda>
+    f = lambda x: func(x, *args, **kwds)
+TypeError: <lambda>() got an unexpected keyword argument 'axis'
+2018-10-21 08:14:14,715 INFO    : main fail
+2018-10-21 08:14:14,715 INFO    : end time:2018-10-21 08:14:14.715367
+2018-10-21 08:14:14,731 INFO    : system exit cost:0:00:01.718903
+2018-10-21 08:14:14,746 INFO    : --------------------------------------------------
+2018-10-21 08:18:04,987 INFO    : system start
+2018-10-21 08:18:05,065 INFO    : start time:2018-10-21 08:18:05.065933
+2018-10-21 08:18:07,441 ERROR   : [Errno 13] Permission denied: 'ceil.xlsx'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 42, in Main
+    writer.save()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\io\excel.py", line 1732, in save
+    return self.book.close()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\xlsxwriter\workbook.py", line 306, in close
+    self._store_workbook()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\xlsxwriter\workbook.py", line 655, in _store_workbook
+    allowZip64=self.allow_zip64)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'ceil.xlsx'
+2018-10-21 08:18:07,472 INFO    : main fail
+2018-10-21 08:18:07,472 INFO    : end time:2018-10-21 08:18:07.472401
+2018-10-21 08:18:07,488 INFO    : system exit cost:0:00:02.406468
+2018-10-21 08:18:07,497 INFO    : --------------------------------------------------
+2018-10-21 08:18:17,443 INFO    : system start
+2018-10-21 08:18:17,459 INFO    : start time:2018-10-21 08:18:17.459345
+2018-10-21 08:18:18,928 INFO    : main ok
+2018-10-21 08:18:18,944 INFO    : end time:2018-10-21 08:18:18.944045
+2018-10-21 08:18:18,944 INFO    : system exit cost:0:00:01.484700
+2018-10-21 08:18:18,959 INFO    : --------------------------------------------------
+2018-10-21 08:21:02,121 INFO    : system start
+2018-10-21 08:21:02,136 INFO    : start time:2018-10-21 08:21:02.136796
+2018-10-21 08:21:03,902 ERROR   : Index(...) must be called with a collection of some kind, '上班時間' was passed
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 39, in Main
+    compare_table = pd.DataFrame([main_a['上班時間'].dropna()], columns='上班時間')
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\frame.py", line 387, in __init__
+    arrays, columns = _to_arrays(data, columns, dtype=dtype)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\frame.py", line 7482, in _to_arrays
+    dtype=dtype)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\frame.py", line 7574, in _list_of_series_to_arrays
+    indexer = indexer_cache[id(index)] = index.get_indexer(columns)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 3222, in get_indexer
+    target = _ensure_index(target)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 4974, in _ensure_index
+    return Index(index_like)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 437, in __new__
+    cls._scalar_data_error(data)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 897, in _scalar_data_error
+    repr(data)))
+TypeError: Index(...) must be called with a collection of some kind, '上班時間' was passed
+2018-10-21 08:21:03,933 INFO    : main fail
+2018-10-21 08:21:03,949 INFO    : end time:2018-10-21 08:21:03.949482
+2018-10-21 08:21:03,949 INFO    : system exit cost:0:00:01.812686
+2018-10-21 08:21:03,949 INFO    : --------------------------------------------------
+2018-10-21 08:23:18,200 INFO    : system start
+2018-10-21 08:23:18,232 INFO    : start time:2018-10-21 08:23:18.232043
+2018-10-21 08:23:19,919 ERROR   : Index(...) must be called with a collection of some kind, '上班時間' was passed
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 39, in Main
+    compare_table = pd.DataFrame([main_a.loc[:,'上班時間'].dropna()], columns='上班時間')
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\frame.py", line 387, in __init__
+    arrays, columns = _to_arrays(data, columns, dtype=dtype)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\frame.py", line 7482, in _to_arrays
+    dtype=dtype)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\frame.py", line 7574, in _list_of_series_to_arrays
+    indexer = indexer_cache[id(index)] = index.get_indexer(columns)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 3222, in get_indexer
+    target = _ensure_index(target)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 4974, in _ensure_index
+    return Index(index_like)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 437, in __new__
+    cls._scalar_data_error(data)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 897, in _scalar_data_error
+    repr(data)))
+TypeError: Index(...) must be called with a collection of some kind, '上班時間' was passed
+2018-10-21 08:23:19,935 INFO    : main fail
+2018-10-21 08:23:19,950 INFO    : end time:2018-10-21 08:23:19.950976
+2018-10-21 08:23:19,950 INFO    : system exit cost:0:00:01.718933
+2018-10-21 08:23:19,966 INFO    : --------------------------------------------------
+2018-10-21 08:24:36,457 INFO    : system start
+2018-10-21 08:24:36,520 INFO    : start time:2018-10-21 08:24:36.520024
+2018-10-21 08:24:38,270 ERROR   : Index(...) must be called with a collection of some kind, '上班時間' was passed
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 39, in Main
+    compare_table = pd.DataFrame(main_a['上班時間'].dropna(), columns='上班時間')
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\frame.py", line 376, in __init__
+    dtype=dtype)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\frame.py", line 432, in _init_dict
+    arrays = Series(data, index=columns, dtype=object)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\series.py", line 183, in __init__
+    index = _ensure_index(index)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 4974, in _ensure_index
+    return Index(index_like)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 437, in __new__
+    cls._scalar_data_error(data)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 897, in _scalar_data_error
+    repr(data)))
+TypeError: Index(...) must be called with a collection of some kind, '上班時間' was passed
+2018-10-21 08:24:38,363 INFO    : main fail
+2018-10-21 08:24:38,363 INFO    : end time:2018-10-21 08:24:38.363983
+2018-10-21 08:24:38,385 INFO    : system exit cost:0:00:01.843959
+2018-10-21 08:24:38,390 INFO    : --------------------------------------------------
+2018-10-21 08:25:01,601 INFO    : system start
+2018-10-21 08:25:01,601 INFO    : start time:2018-10-21 08:25:01.601393
+2018-10-21 08:25:03,492 INFO    : main ok
+2018-10-21 08:25:03,492 INFO    : end time:2018-10-21 08:25:03.492222
+2018-10-21 08:25:03,507 INFO    : system exit cost:0:00:01.890829
+2018-10-21 08:25:03,507 INFO    : --------------------------------------------------
+2018-10-21 08:26:21,958 INFO    : system start
+2018-10-21 08:26:21,974 INFO    : start time:2018-10-21 08:26:21.974447
+2018-10-21 08:26:23,974 INFO    : main ok
+2018-10-21 08:26:23,990 INFO    : end time:2018-10-21 08:26:23.990328
+2018-10-21 08:26:24,005 INFO    : system exit cost:0:00:02.015881
+2018-10-21 08:26:24,005 INFO    : --------------------------------------------------
+2018-10-21 08:28:54,760 INFO    : system start
+2018-10-21 08:28:54,775 INFO    : start time:2018-10-21 08:28:54.775674
+2018-10-21 08:28:56,947 INFO    : main ok
+2018-10-21 08:28:56,994 INFO    : end time:2018-10-21 08:28:56.994712
+2018-10-21 08:28:56,994 INFO    : system exit cost:0:00:02.219038
+2018-10-21 08:28:57,015 INFO    : --------------------------------------------------
+2018-10-21 08:31:50,119 INFO    : system start
+2018-10-21 08:31:50,134 INFO    : start time:2018-10-21 08:31:50.134773
+2018-10-21 08:31:52,494 ERROR   : [Errno 13] Permission denied: 'ceil.xlsx'
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 46, in Main
+    writer.save()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\io\excel.py", line 1732, in save
+    return self.book.close()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\xlsxwriter\workbook.py", line 306, in close
+    self._store_workbook()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\xlsxwriter\workbook.py", line 655, in _store_workbook
+    allowZip64=self.allow_zip64)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'ceil.xlsx'
+2018-10-21 08:31:52,556 INFO    : main fail
+2018-10-21 08:31:52,584 INFO    : end time:2018-10-21 08:31:52.584124
+2018-10-21 08:31:52,593 INFO    : system exit cost:0:00:02.449351
+2018-10-21 08:31:52,600 INFO    : --------------------------------------------------
+2018-10-21 08:32:01,290 INFO    : system start
+2018-10-21 08:32:01,306 INFO    : start time:2018-10-21 08:32:01.306069
+2018-10-21 08:32:03,274 INFO    : main ok
+2018-10-21 08:32:03,274 INFO    : end time:2018-10-21 08:32:03.274953
+2018-10-21 08:32:03,290 INFO    : system exit cost:0:00:01.968884
+2018-10-21 08:32:03,290 INFO    : --------------------------------------------------
+2018-10-21 08:37:31,631 INFO    : system start
+2018-10-21 08:37:31,631 INFO    : start time:2018-10-21 08:37:31.631075
+2018-10-21 08:37:33,975 INFO    : main ok
+2018-10-21 08:37:33,990 INFO    : end time:2018-10-21 08:37:33.990674
+2018-10-21 08:37:33,990 INFO    : system exit cost:0:00:02.359599
+2018-10-21 08:37:33,990 INFO    : --------------------------------------------------
+2018-10-21 08:41:32,845 INFO    : system start
+2018-10-21 08:41:32,860 INFO    : start time:2018-10-21 08:41:32.860771
+2018-10-21 08:41:35,282 INFO    : main ok
+2018-10-21 08:41:35,282 INFO    : end time:2018-10-21 08:41:35.282809
+2018-10-21 08:41:35,298 INFO    : system exit cost:0:00:02.422038
+2018-10-21 08:41:35,298 INFO    : --------------------------------------------------
+2018-10-21 08:45:38,468 INFO    : system start
+2018-10-21 08:45:38,468 INFO    : start time:2018-10-21 08:45:38.468066
+2018-10-21 08:45:40,265 ERROR   : ('上班時間', 'occurred at index 工號')
+Traceback (most recent call last):
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+TypeError: an integer is required
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 39, in Main
+    work_on_time = main_a.apply(lambda x: ceil_dt(pd.to_datetime(x['上班時間'].dropna(), format='%Y/%m/%d %H:%M'), 30))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\frame.py", line 6014, in apply
+    return op.get_result()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 318, in get_result
+    return super(FrameRowApply, self).get_result()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 142, in get_result
+    return self.apply_standard()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 248, in apply_standard
+    self.apply_series_generator()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 277, in apply_series_generator
+    results[i] = self.f(v)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 39, in <lambda>
+    work_on_time = main_a.apply(lambda x: ceil_dt(pd.to_datetime(x['上班時間'].dropna(), format='%Y/%m/%d %H:%M'), 30))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\series.py", line 767, in __getitem__
+    result = self.index.get_value(self, key)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 3118, in get_value
+    tz=getattr(series.dtype, 'tz', None))
+  File "pandas\_libs\index.pyx", line 106, in pandas._libs.index.IndexEngine.get_value
+  File "pandas\_libs\index.pyx", line 114, in pandas._libs.index.IndexEngine.get_value
+  File "pandas\_libs\index.pyx", line 164, in pandas._libs.index.IndexEngine.get_loc
+KeyError: ('上班時間', 'occurred at index 工號')
+2018-10-21 08:45:40,374 INFO    : main fail
+2018-10-21 08:45:40,390 INFO    : end time:2018-10-21 08:45:40.390148
+2018-10-21 08:45:40,390 INFO    : system exit cost:0:00:01.922082
+2018-10-21 08:45:40,405 INFO    : --------------------------------------------------
+2018-10-21 08:46:38,796 INFO    : system start
+2018-10-21 08:46:38,796 INFO    : start time:2018-10-21 08:46:38.796604
+2018-10-21 08:46:40,531 ERROR   : ('上班時間', 'occurred at index 工號')
+Traceback (most recent call last):
+  File "pandas\_libs\index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+TypeError: an integer is required
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 39, in Main
+    work_on_time = main_a.apply(lambda x: ceil_dt(pd.to_datetime(x['上班時間'].dropna(), format='%Y/%m/%d %H:%M'), 30))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\frame.py", line 6014, in apply
+    return op.get_result()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 318, in get_result
+    return super(FrameRowApply, self).get_result()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 142, in get_result
+    return self.apply_standard()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 248, in apply_standard
+    self.apply_series_generator()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\apply.py", line 277, in apply_series_generator
+    results[i] = self.f(v)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 39, in <lambda>
+    work_on_time = main_a.apply(lambda x: ceil_dt(pd.to_datetime(x['上班時間'].dropna(), format='%Y/%m/%d %H:%M'), 30))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\series.py", line 767, in __getitem__
+    result = self.index.get_value(self, key)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\python\lib\site-packages\pandas\core\indexes\base.py", line 3118, in get_value
+    tz=getattr(series.dtype, 'tz', None))
+  File "pandas\_libs\index.pyx", line 106, in pandas._libs.index.IndexEngine.get_value
+  File "pandas\_libs\index.pyx", line 114, in pandas._libs.index.IndexEngine.get_value
+  File "pandas\_libs\index.pyx", line 164, in pandas._libs.index.IndexEngine.get_loc
+KeyError: ('上班時間', 'occurred at index 工號')
+2018-10-21 08:46:40,578 INFO    : main fail
+2018-10-21 08:46:40,595 INFO    : end time:2018-10-21 08:46:40.595866
+2018-10-21 08:46:40,606 INFO    : system exit cost:0:00:01.799262
+2018-10-21 08:46:40,618 INFO    : --------------------------------------------------
+2018-10-21 08:48:40,845 INFO    : system start
+2018-10-21 08:48:40,923 INFO    : start time:2018-10-21 08:48:40.923743
+2018-10-21 08:48:44,033 INFO    : main ok
+2018-10-21 08:48:44,267 INFO    : end time:2018-10-21 08:48:44.267887
+2018-10-21 08:48:44,455 INFO    : system exit cost:0:00:03.344144
+2018-10-21 08:48:44,642 INFO    : --------------------------------------------------
+2018-10-21 08:55:14,051 INFO    : system start
+2018-10-21 08:55:14,441 INFO    : start time:2018-10-21 08:55:14.441734
+2018-10-21 08:55:17,035 ERROR   : local variable 'compare_table' referenced before assignment
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 41, in Main
+    compare_table = compare_table[[main_a['上班時間'].dropna(), work_on_time, main_a['下班時間'].dropna(), work_off_time]]
+UnboundLocalError: local variable 'compare_table' referenced before assignment
+2018-10-21 08:55:17,442 INFO    : main fail
+2018-10-21 08:55:17,598 INFO    : end time:2018-10-21 08:55:17.598360
+2018-10-21 08:55:17,754 INFO    : system exit cost:0:00:03.156626
+2018-10-21 08:55:17,910 INFO    : --------------------------------------------------
+2018-10-21 08:55:32,662 INFO    : system start
+2018-10-21 08:55:32,959 INFO    : start time:2018-10-21 08:55:32.959380
+2018-10-21 08:55:34,756 ERROR   : local variable 'compare_table' referenced before assignment
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 14, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\nonotest.py", line 40, in Main
+    compare_table = compare_table[[main_a['上班時間'].dropna(), work_on_time, main_a['下班時間'].dropna(), work_off_time]]
+UnboundLocalError: local variable 'compare_table' referenced before assignment
+2018-10-21 08:55:34,990 INFO    : main fail
+2018-10-21 08:55:35,115 INFO    : end time:2018-10-21 08:55:35.115861
+2018-10-21 08:55:35,209 INFO    : system exit cost:0:00:02.156481
+2018-10-21 08:55:35,319 INFO    : --------------------------------------------------
+2018-10-22 08:51:11,620 INFO    : system start
+2018-10-22 08:51:11,620 INFO    : start time:2018-10-22 08:51:11.620359
+2018-10-22 08:51:11,620 INFO    : main ok
+2018-10-22 08:51:11,620 INFO    : end time:2018-10-22 08:51:11.620359
+2018-10-22 08:51:11,620 INFO    : system exit cost:0:00:00
+2018-10-22 08:51:11,635 INFO    : --------------------------------------------------
+2018-10-22 09:11:04,288 INFO    : system start
+2018-10-22 09:11:15,665 INFO    : system start
+2018-10-22 09:11:15,680 INFO    : start time:2018-10-22 09:11:15.680727
+2018-10-22 09:11:15,680 INFO    : main ok
+2018-10-22 09:11:15,680 INFO    : end time:2018-10-22 09:11:15.680727
+2018-10-22 09:11:15,680 INFO    : system exit cost:0:00:00
+2018-10-22 09:11:15,680 INFO    : --------------------------------------------------
+2018-10-22 09:11:49,006 INFO    : system start
+2018-10-22 09:11:49,006 INFO    : start time:2018-10-22 09:11:49.006807
+2018-10-22 09:11:49,006 INFO    : main ok
+2018-10-22 09:11:49,006 INFO    : end time:2018-10-22 09:11:49.006807
+2018-10-22 09:11:49,006 INFO    : system exit cost:0:00:00
+2018-10-22 09:11:49,006 INFO    : --------------------------------------------------
+2018-10-22 09:32:32,943 INFO    : system start
+2018-10-22 09:32:32,990 INFO    : start time:2018-10-22 09:32:32.990574
+2018-10-22 09:32:33,006 INFO    : main ok
+2018-10-22 09:32:33,006 INFO    : end time:2018-10-22 09:32:33.006241
+2018-10-22 09:32:33,021 INFO    : system exit cost:0:00:00.015667
+2018-10-22 09:32:33,021 INFO    : --------------------------------------------------
+2018-10-22 09:33:54,362 INFO    : system start
+2018-10-22 09:33:54,377 INFO    : start time:2018-10-22 09:33:54.377941
+2018-10-22 09:33:54,377 INFO    : 20181022
+2018-10-22 09:33:54,377 INFO    : main ok
+2018-10-22 09:33:54,377 INFO    : end time:2018-10-22 09:33:54.377941
+2018-10-22 09:33:54,377 INFO    : system exit cost:0:00:00
+2018-10-22 09:33:54,377 INFO    : --------------------------------------------------
+2018-10-22 09:35:01,563 INFO    : system start
+2018-10-22 09:35:01,563 INFO    : start time:2018-10-22 09:35:01.563154
+2018-10-22 09:35:01,578 INFO    : 20181022
+2018-10-22 09:35:06,782 ERROR   : name 'day' is not defined
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\Line_CPB_PECC.py", line 13, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\Line_CPB_PECC.py", line 25, in OEE2
+    logger.info(day)
+NameError: name 'day' is not defined
+2018-10-22 09:35:06,782 INFO    : main fail
+2018-10-22 09:35:06,782 INFO    : end time:2018-10-22 09:35:06.782464
+2018-10-22 09:35:06,782 INFO    : system exit cost:0:00:05.219310
+2018-10-22 09:35:06,782 INFO    : --------------------------------------------------
+2018-10-22 09:35:14,337 INFO    : system start
+2018-10-22 09:35:14,384 INFO    : start time:2018-10-22 09:35:14.384602
+2018-10-22 09:35:14,384 INFO    : 20181022
+2018-10-22 09:35:17,655 ERROR   : name 'day' is not defined
+Traceback (most recent call last):
+  File "F:\A32\coding\temp_coding\rounding_up\Line_CPB_PECC.py", line 13, in wraper
+    result = func(*args, **kwargs)
+  File "F:\A32\coding\temp_coding\rounding_up\Line_CPB_PECC.py", line 25, in OEE2
+    logger.info(day)
+NameError: name 'day' is not defined
+2018-10-22 09:35:17,655 INFO    : main fail
+2018-10-22 09:35:17,655 INFO    : end time:2018-10-22 09:35:17.655259
+2018-10-22 09:35:17,655 INFO    : system exit cost:0:00:03.270657
+2018-10-22 09:35:17,655 INFO    : --------------------------------------------------
+2018-10-22 09:35:32,462 INFO    : system start
+2018-10-22 09:35:32,509 INFO    : start time:2018-10-22 09:35:32.509128
+2018-10-22 09:35:32,509 INFO    : 20181022
+2018-10-22 09:35:35,431 INFO    : 20181021
+2018-10-22 09:35:35,431 INFO    : main ok
+2018-10-22 09:35:35,431 INFO    : end time:2018-10-22 09:35:35.431308
+2018-10-22 09:35:35,431 INFO    : system exit cost:0:00:02.922180
+2018-10-22 09:35:35,431 INFO    : --------------------------------------------------
